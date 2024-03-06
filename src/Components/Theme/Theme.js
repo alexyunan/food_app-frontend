@@ -7,16 +7,18 @@ export const foodOrderTheme = createTheme({
       main: "#FF6347", // A vibrant and appetizing coral color for the primary theme
     },
     secondary: {
-      main: "#5A20CB", // 
+      main: "#5A20CB", //
     },
-
+    black: {
+      main: "#242B2E",
+    },
     background: {
-      main: "#F8F9FA", // A light and neutral background color
-      default: "#FFFFFF", // Pure white background for cleanliness
-      paper: "#FFFFFF", // White paper-like surfaces
+      main: "#000000",
+      default: "#0D0D0D",
+      paper: "#0D0D0D",
     },
-    text: {
-      primary: "#FFFFFF", 
+    textColor: {
+      primary: "#111111",
     },
   },
 });

@@ -1,5 +1,6 @@
 import React from "react";
 import "./HomePage.css";
+import Carousel from "./Carousel";
 
 const HomePage = () => {
   return (
@@ -15,6 +16,18 @@ const HomePage = () => {
         </div>
         <div className="cover absolute top-0 left-0 right-0"></div>
         <div className="fadeout"></div>
+      </section>
+      <section className="p-10 lg:py-10 lg:px-20 ">
+        <p className="text-2xl font-semibold text-gray-400 py-3 pb-10 ">
+          Top Meals
+        </p>
+        <Carousel />
+      </section>
+      <section className="px-5 lg:px-20">
+        <h1 className="text-2xl font-semibold text-gray-400 py-3 ">
+          Order From Our Favorites
+        </h1>
+        <div></div>
       </section>
     </div>
   );
